@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AdamListComponent } from './adam-list/adam-list.component';
 import { LearnJsTsComponent } from './learn-js-ts/learn-js-ts.component';
 import { LearndesignComponent } from './learndesign/learndesign.component';
+import { ReactiveformsComponent } from './reactiveforms/reactiveforms.component';
 import { SampleComponent } from './sample/sample.component';
 
 const routes: Routes = [
@@ -17,6 +18,9 @@ const routes: Routes = [
   },
   {
     path : 'learnjsts',component : LearnJsTsComponent
+  },
+  {
+    path : 'react-forms',component : ReactiveformsComponent
   }
 ];
 
